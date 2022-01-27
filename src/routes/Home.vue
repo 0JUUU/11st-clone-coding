@@ -7,8 +7,14 @@
 export default {
   computed: {
     heropyMessage() {
-      return this.$store.state.heropy.message
+      return this.$store.state.navigation.message
     }
   }
 }
 </script>
+
+<style scoped>
+h1 {
+  color: red;
+}
+</style>

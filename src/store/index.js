@@ -1,8 +1,8 @@
 import { createStore } from 'vuex'
-import heropy from './heropy'
+import navigation from './navigation'
 
 export default createStore({
   modules: {
-    heropy
+    navigation
   }
 })
